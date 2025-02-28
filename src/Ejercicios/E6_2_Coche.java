@@ -18,6 +18,7 @@ public class E6_2_Coche {
 
     public void frena(int velocidad) {
         this.velocidad -= velocidad;
+        System.out.println("hola2");
     }
 
 
