@@ -22,6 +22,9 @@ public class E6_1_Main {
                 case 3:
                     System.out.println("Ha elegido Salir.");
                     break;
+                    case 4:
+                        System.exit(0);
+                        break;
                 default:
                     System.out.println("Debes poner un número del 1 al 3.");
             }
